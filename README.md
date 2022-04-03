@@ -20,7 +20,7 @@ After reviewing some other notebooks (notably this [one](https://www.kaggle.com/
 - Break fares into bins - Done
 - Change SibSp into a 0/1 attribute. If people are alone or with family - Done
 - Change ParCh into a 0/1 attribute. If people are alone or with family - Done
-- look at adding a deck feature
+- look at adding a deck feature - Done
   - There are quite a few unknown so that can be its own category
   - We may need to group decks with similar properties and/or low numbers
 - one-hot embarked
@@ -28,3 +28,6 @@ After reviewing some other notebooks (notably this [one](https://www.kaggle.com/
     - We could just use the most common?
     - Or based on their fare, select the embarkation location
 - Also look at trying some different model
+
+- Possible improvements:
+  - Test changing SibSp, ParCh, Sex and Cabin to one-hot
