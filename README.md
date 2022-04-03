@@ -23,11 +23,15 @@ After reviewing some other notebooks (notably this [one](https://www.kaggle.com/
 - look at adding a deck feature - Done
   - There are quite a few unknown so that can be its own category
   - We may need to group decks with similar properties and/or low numbers
-- one-hot embarked
-  - for people without embarked
-    - We could just use the most common?
-    - Or based on their fare, select the embarkation location
-- Also look at trying some different model
 
-- Possible improvements:
-  - Test changing SibSp, ParCh, Sex and Cabin to one-hot
+This ended up with an identical score `0.77511`. Submission notebook [here](src/submission-02.ipynb)
+
+## Final(?) notes
+
+After doing some research it appears that any score above 75% is a reasonably good one. The highest every acheived was 83%. There is likely some more processing that could be done to offer some better data/results:
+
+- One-hot embarked, sex
+- Calculate total family size
+- Have a feature for a women with children as this was apparently an indicator of likely death.
+
+However, I'll leave this for now as it was a good learning project and may also not be worth putting in hours more work to achieve a few more percent accuracy. I may revisit this in the future once I've learned more to see if I can improve.
