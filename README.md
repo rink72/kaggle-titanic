@@ -26,7 +26,7 @@ This ended up with an identical score `0.77511`. Submission notebook [here](src/
 
 ## Final(?) notes
 
-After doing some research it appears that any score above 75% is a reasonably good one. The highest every acheived was 83%. There is likely some more processing that could be done to offer some better data/results:
+After doing some research it appears that any score above 75% is a reasonably good one. The highest ever acheived was 83%. There is likely some more processing that could be done to offer some better data/results:
 
 - One-hot embarked, sex
 - Calculate total family size
